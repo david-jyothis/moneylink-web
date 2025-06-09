@@ -6,17 +6,12 @@ import moneylinklogo from "../../assets/images/moneylinklogo.svg";
 import "./platform.css";
 
 const Solution = () => {
-  const [isSubMenuVisible, setSubMenuVisible] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-  const timeoutIdRef = useRef(null);
   const location = useLocation();
 
   useEffect(() => {
     const handleResize = () => {
       setScreenWidth(window.innerWidth);
-      if (window.innerWidth > 920) {
-        setSubMenuVisible(false);
-      }
     };
 
     window.addEventListener("resize", handleResize);

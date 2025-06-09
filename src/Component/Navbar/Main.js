@@ -12,7 +12,6 @@ import "./main.css";
 
 const Main = () => {
   const [isSubMenuVisible, setSubMenuVisible] = useState(false);
-  const [selectedMenu, setSelectedMenu] = useState("");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const timeoutIdRef = useRef(null);
   const location = useLocation();
