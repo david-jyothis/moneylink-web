@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "./Main";
 import { NavLink, useLocation } from "react-router-dom";
 import moneylinklogo from "../../assets/images/moneylinklogo.svg";
