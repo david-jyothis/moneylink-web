@@ -1,0 +1,297 @@
+/* new code */
+
+/* .bi::before,
+[class*=" bi-"]::before,
+[class^=bi-]::before {
+  background-color: #4abceb;
+  padding: 4px 12px;
+  border-radius: 19px;
+
+  color: #20336b;
+} */
+
+.mobileheader {
+  border-bottom-style: dashed;
+  border-bottom-color: #f9f8f8;
+  padding-top: 15px;
+}
+
+button.back-btn span {
+  padding-left: 5px;
+  padding-top: 2px;
+}
+
+button.back-btn {
+  border: none;
+  background: none;
+  color: #20336b;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 0px;
+}
+
+.bi-list::before {
+  content: "\f479";
+  background: #20336b;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 32px;
+  height: 32px;
+  font-size: 21px;
+  line-height: 1;
+}
+
+.bi::before,
+[class*=" bi-"]::before,
+[class^="bi-"]::before {
+  font-weight: 600 !important;
+}
+
+.bi-x {
+  color: #20336b;
+}
+
+.new-ui h2 {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #20336b;
+  font-weight: 500;
+  padding: 10px;
+}
+
+ul.moblielist li {
+  /* background-color: #f6f9fc; */
+  margin: 0 0 8px;
+  padding: 4px 10px;
+  list-style: none;
+  display: grid;
+  row-gap: 8px;
+  min-width: 248px;
+  max-width: 400px;
+  border-radius: 4px;
+  color: #20336b;
+}
+
+.mobileheader1 {
+  border-bottom-style: dashed;
+  border-bottom-color: #f9f8f8;
+  padding-top: 0px;
+}
+
+/* Add these styles to your CSS file */
+.slide-in-right {
+  animation: slideInRight 0.5s forwards;
+}
+
+.slide-out-left {
+  animation: slideOutLeft 0.5s forwards;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutLeft {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+.slide-out-right {
+  animation: slideOutRight 0.5s forwards;
+}
+
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.slide-in-left {
+  animation: slideInLeft 0.5s forwards;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* new code end */
+
+.sidebar {
+  background-color: #ffff;
+  /* border-right: 1px solid #ddd; */
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.section.section2 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #635bff;
+  width: 150px;
+  margin: 0;
+  padding-right: 20px;
+}
+
+.solutions-logo {
+  width: 160px;
+}
+
+.solutions-logo img {
+  max-width: 100%;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding-right: 0px;
+}
+
+.section {
+  margin-top: 15px;
+}
+
+.section h2 {
+  font-size: 16px;
+  margin: 0px 0 10px 0;
+  color: #20336b;
+  font-weight: 500;
+  padding-top: 4px;
+  padding-left: 0px;
+}
+
+.section.section4 {
+  padding: 20px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.menu-item {
+  margin-top: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.menu-item h3 {
+  margin: 0;
+  font-size: 14px;
+  color: #000;
+}
+
+.menu-item p {
+  margin: 5px 0 0;
+  font-size: 12px;
+  color: #666;
+}
+
+.backarrow-icon {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: 2px;
+}
+
+.backarrow-icon>svg {
+  color: #666;
+  width: 100%;
+}
+
+img.arrowimg {
+  width: 5%;
+}
+
+img.mobileicon1 {
+  width: 70%;
+}
+
+.responsiveiconwidth {
+  width: 40px;
+}
+
+.navbarmobicon {
+  display: flex;
+}
+
+ul.moblielist {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.mobile-menu-button button i,
+.close-btn i {
+  font-size: 25px;
+}
+
+.header-responsive {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 767px) {
+  .header {
+    padding: 0 10px;
+  }
+
+  .mobile-logo {
+    width: 150px;
+    margin: 0;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .respon-btn {
+    border-radius: 25px;
+    border: none;
+    padding: 10px 10px;
+    align-items: center;
+    margin: 10px 0px 20px 0px;
+  }
+
+  .respon-btn-a {
+    text-decoration: none;
+  }
+
+  .plat-button {
+    color: #fff;
+  }
+}

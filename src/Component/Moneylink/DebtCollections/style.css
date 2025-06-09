@@ -1,0 +1,150 @@
+.debt-hero {
+  padding: 70px 15px 0px 200px;
+}
+
+.debt-hero h1 {
+  color: #4d148c;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  padding-top: 10px;
+}
+
+.debt-hero h1 span {
+  color: #4d148c;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+.debt-hero-2 img {
+  display: flex;
+  justify-content: end;
+  margin: auto;
+  margin-right: 0;
+}
+
+.debt-hero p {
+  color: #4d148c;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 10px 0;
+}
+
+.debt-hero button {
+  border-radius: 8px;
+  background: #ff5900;
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "cv04" on, "cv03" on, "cv01" on;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
+  padding: 10px 15px;
+  border: none;
+  margin-top: 10px;
+}
+
+.lm1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 200px 150px 200px;
+}
+
+
+.lmm h6 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #4d148c;
+}
+
+.lmm p {
+  font-size: 16px;
+  color: #4d148c;
+}
+
+@media only screen and (max-width: 767px) {
+  .debt-hero {
+    padding: 20px 0px 0px 20px !important;
+  }
+
+  .debt-hero img {
+    display: flex !important;
+    width: 100%;
+  }
+
+  .debt-hero-heading,
+  .debt-hero-heading-span {
+    font-size: 25px !important;
+    line-height: 40px !important;
+  }
+
+  .debt-hero-text {
+    font-size: 14px !important;
+  }
+
+  .debt-hero button {
+    margin-top: 0px;
+  }
+
+  .why-moneylink {
+    padding: 20px 20px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+  .debt-hero {
+    padding: 20px 0px 0px 20px !important;
+  }
+
+  .debt-hero img {
+    display: flex !important;
+  }
+
+  .debt-hero-heading,
+  .debt-hero-heading-span {
+    font-size: 35px !important;
+    line-height: 50px !important;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .debt-hero-heading {
+    font-size: 40px !important;
+    line-height: 55px !important;
+  }
+
+  .debt-hero-heading-span {
+    font-size: 40px !important;
+    line-height: 55px !important;
+  }
+
+  .debt-hero-text {
+    font-size: 15px !important;
+  }
+
+  .debt-hero-2 img {
+    width: 100%;
+  }
+
+  .debt-hero button {
+    margin-top: 15px !important;
+  }
+
+  .debt-hero {
+    padding: 70px 0px 0px 20px;
+  }
+}
+
+/* 
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .debt-hero {
+    padding: 70px 100px !important;
+  }
+} */

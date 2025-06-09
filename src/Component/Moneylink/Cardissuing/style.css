@@ -1,0 +1,455 @@
+.cip-hero {
+  padding: 50px 200px 100px 200px;
+}
+
+.cip-card.cardissu svg {
+  margin-left: 0px;
+}
+
+.lineparagrap {
+  border-left: 1px solid #ff5900;
+  padding-left: 8px;
+}
+
+.cip-hero h1 {
+  color: #4d148c;
+
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 68px;
+}
+
+.cip-hero p {
+  color: #4d148c;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0px 8px;
+}
+
+.cip-hero-img img {
+  max-width: 100%;
+  margin-top: 0px;
+}
+
+.cip-hero button {
+  border: none;
+  border-radius: 8px;
+  background: #ff5900;
+  color: #fff;
+  text-align: center;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.cip-hero-iamge {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cip-card {
+  height: 230px;
+}
+
+.cip-body {
+  padding: 70px 200px;
+  background: #f8f6fc;
+}
+
+.cip-card svg {
+  margin-left: 8px;
+  margin-bottom: 20px;
+}
+
+.cip-card img {
+  padding-bottom: 18px;
+}
+
+.prepaid-card h6 {
+  color: #4d148c;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.cardgift {
+  padding-left: 8px;
+}
+
+.cardissuing {
+  margin-bottom: 18px;
+  padding-left: 8px;
+}
+
+.prepaid-card p {
+  color: #4d148c;
+  text-align: left;
+
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.prepaid-card-header {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.prepaid-card-header p {
+  padding: 0 120px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+h6.precardnew {
+  font-size: 20px;
+  padding-top: 18px;
+}
+
+.prepaid-card {
+  border-radius: 8px;
+  /* border: 1px solid #4d148c;
+  background: #fff; */
+  margin-top: 50px;
+  padding: 10px 0px;
+}
+
+.cip-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cip-card p {
+  text-align: left;
+  margin-left: 8px;
+  width: 434px;
+}
+
+p.issuingpara {
+  width: 100%;
+}
+
+.why-moneylink-body {
+  border: none !important;
+}
+
+.why-moneylink {
+  padding: 70px 300px;
+}
+
+.why-moneylink h1 {
+  color: #4d148c;
+  text-align: center;
+
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.why-moneylink.merchant-body.accountmanagement-body {
+  font-weight: 600;
+}
+
+.cip-hero-card h6 {
+  color: #4d148c;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.cip-hero-card {
+  padding: 0px 0px 50px 0px;
+  border-radius: 10px;
+  height: 180px;
+}
+
+.cip-hero-cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cip-hero-card-body {
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+
+.cip-card-text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  padding-left: 8px;
+  padding-top: 5px;
+}
+
+.cip-card-dot {
+  width: 6px;
+  height: 6px;
+  background: #4d148c;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.cip-card-text p {
+  padding: 0 !important;
+  margin-bottom: 0px;
+}
+
+.text-orange {
+  color: #4d148c !important;
+  font-size: 15px !important;
+  line-height: 24px !important;
+}
+
+.cip-card-text p {
+  font-size: 15px !important;
+  line-height: 1.2 !important;
+}
+
+.card-type h6 {
+  color: #4d148c;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 0px 0 0 0;
+}
+
+.card-type p {
+  color: #4d148c;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 0px;
+  padding-left: 8px;
+}
+
+.card-types {
+  display: flex;
+  justify-content: space-between;
+}
+
+.credit-feature {
+  display: flex;
+  padding-top: 5px;
+  align-items: center;
+}
+
+.credit-feature span {
+  color: #4d148c;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 12px;
+}
+
+.cip-body-1 h1 {
+  text-align: center;
+  font-size: 38px;
+  color: #4d148c;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.col.cip-hero-img img {
+  max-width: 100%;
+  padding-top: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .cip-hero {
+    padding: 20px 20px;
+  }
+
+  .ml-hero-btn {
+    margin-top: 10px;
+  }
+
+  .cip-hero h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .cip-hero p {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+
+  .cip-hero button {
+    padding: 8px 10px;
+    margin-top: 20px;
+  }
+
+  .card-types {
+    margin-top: 0px;
+  }
+
+  .cip-body-1 h1 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+
+  .card-type {
+    height: auto;
+  }
+
+  .card-type p {
+    font-size: 14px;
+  }
+
+  .cip-card p {
+    font-size: 14px;
+  }
+
+  .why-moneylink h1 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .why-moneylink-body {
+    margin-top: 0px;
+  }
+
+  .prepaid-card-header {
+    padding: 20px 0px !important;
+    text-align: start;
+  }
+
+  .prepaid-card p {
+    font-size: 14px;
+    text-align: start;
+  }
+
+  .cip-hero-img {
+    display: flex !important;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cip-hero h1 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .ml-hero-btn {
+    margin-top: 15px;
+  }
+
+  .cip-hero p {
+    font-size: 16px;
+    padding: 15px 0;
+  }
+
+  .cip-hero-img {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cip-hero-img img {
+    max-width: 70% !important;
+  }
+
+  .cip-hero-card {
+    max-width: 100% !important;
+    height: 180px;
+  }
+
+  .why-moneylink h1 {
+    font-weight: 500;
+  }
+
+  .why-moneylink-body {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .cip-hero {
+    padding: 70px 70px;
+  }
+
+  .cip-hero h1 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .cip-hero p {
+    font-size: 16px;
+    padding: 15px 0;
+  }
+
+  .cip-hero-card {
+    height: 250px !important;
+  }
+
+  .cip-body {
+    padding: 70px 70px;
+  }
+
+  .cip-card {
+    margin: 0 20px 0 0;
+  }
+
+  .cip-card p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+
+
+  .cip-body {
+    padding: 100px 80px;
+  }
+
+  .why-moneylink {
+    padding: 70px 80px;
+  }
+
+  .prepaid-card {
+    padding: 30px 10px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .prepaid-card-header p {
+    padding: 0 10px;
+  }
+}
+
+/* @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .cip-hero {
+    padding: 70px 100px !important;
+  }
+} */
+
+.cardIssuing-util-down-arrow {
+  left: 24px;
+}
+
+.cardIssuing-topdescription {
+  margin-bottom: 15px !important;
+}
+
+/* .cardIssuing-util-step {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cardIssuing-util-step:nth-of-type(3) {
+  margin-left: 10px;
+} */
+
+.cardIssuing-arrow {
+  margin: 0 -26px;
+}

@@ -1,0 +1,248 @@
+.moneylink-project .h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.moneylink-project h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-top: 0;
+  margin-bottom: 0.5rem !important;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* fallback css */
+
+.merchantApplication {
+  max-width: 100%;
+  padding: 0px 20px;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 0px 400px;
+}
+
+form.merchantApplicationForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  gap: 0px 25px;
+  padding: 10px 15px !important;
+  background-color: #F6F7FF;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+input.merchantFormInput {
+  width: 100%;
+  padding: 4px 6px;
+  border-radius: 20px;
+  border: none;
+  height: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #fff !important;
+  margin-bottom: 10px;
+}
+
+input:-internal-autofill-selected {
+  background-color: #fff !important;
+}
+
+button.merchantFormSubmit {
+  background: linear-gradient(to bottom, #215CFF, #1D3FF0);
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  margin-right: auto;
+  border-radius: 60px;
+  margin-top: 15px;
+  font-size: 15px;
+  height: 60px;
+  width: 360px;
+  margin-left: auto;
+}
+
+h4.merchantHeader {
+  font-size: 13px;
+  text-align: center;
+  padding-bottom: 0px;
+  font-weight: 600;
+  margin-bottom: 0px !important;
+}
+
+label.labelInput {
+  font-size: 13px;
+  margin-bottom: 10px;
+  line-height: 14px;
+  color: #111111;
+}
+
+p.ordeInformation {
+  font-size: 18px;
+  font-weight: 400;
+  color: #215CFF;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  line-height: 26px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+
+.form-row .form-group {
+  flex: 1;
+  /* Makes both fields equal width */
+}
+
+textarea.merchantFormInput.merchanttextarea {
+  resize: none;
+  width: 100%;
+  border-radius: 20px;
+  height: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 15px 6px;
+  border: none;
+  background-color: #fff;
+  box-sizing: border-box;
+  /* overflow-y: auto; */
+  /* line-height: 15px; */
+}
+
+.formMain {
+  background-color: #e8e8e8;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0px 0px;
+  align-items: center;
+  display: flex;
+}
+
+img.merchantheaderMontralogo {
+  max-width: 20%;
+}
+
+.merchantlogoheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 15px;
+  /* padding: 5px 20px;
+  background-color: #f6f9fc; */
+}
+
+.merchantlogoheader1 {
+  padding: 10px;
+}
+
+
+.merchantHeaderRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: end;
+}
+
+img.merchantheaderMontralogoprofile {
+  max-width: 15%;
+  border-radius: 50px;
+}
+
+.merchantheaderMontralogo,
+.merchantheaderMontralogoprofile {
+  width: auto;
+  max-width: 100%;
+}
+
+select.merchantFormInput {
+  width: 100%;
+  padding: 4px 6px;
+  border-radius: 20px;
+  border: none;
+  height: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #fff !important;
+}
+
+ul.merchantorderdetails {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 5px;
+  color: #fff;
+}
+
+.listInformation {
+  display: flex;
+  justify-content: start;
+  background: linear-gradient(to bottom, #215CFF, #1D3FF0);
+  border-radius: 25px;
+  padding: 5px 15px;
+}
+
+/* textarea::placeholder {
+  line-height: 20px;
+} */
+
+ul.merchantorderdetails,
+li {
+  padding-bottom: 3px;
+}
+
+p.errorcustomer {
+  font-size: 12px;
+  color: red;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  .merchantApplication {
+    margin: 0 20px;
+    max-width: 95%;
+    padding: 0px;
+  }
+
+  img.merchantheaderMontralogo {
+    max-width: 26%;
+  }
+
+  .formMain {
+    align-items: center;
+    background-color: #e8e8e8;
+    display: block;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .merchantApplication {
+    margin: 0 10px;
+    /* Further reduce margin */
+    max-width: 100%;
+    /* Use full width on very small screens */
+    padding: 0px;
+    /* Reduce padding for better spacing */
+  }
+
+  button.merchantFormSubmit {
+    width: 100%;
+  }
+}

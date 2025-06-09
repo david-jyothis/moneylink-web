@@ -1,0 +1,29 @@
+.plat-button {
+  border-radius: 24px;
+  background: #ff5900 !important;
+}
+
+.plat-button:hover {
+  color: #ff5900 !important;
+  background: #4d148c !important;
+}
+
+.plat-nav-link .active {
+  color: #4d148c !important;
+}
+
+.platform:hover {
+  color: #4d148c !important;
+}
+
+@media (min-width: 921px) {
+  .horizontal-navbar {
+    display: none;
+  }
+}
+
+@media (max-width: 920px) {
+  .second-navbar.platform-navbar {
+    flex-direction: column;
+  }
+}

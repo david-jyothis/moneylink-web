@@ -1,0 +1,18 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.59375 23.0164L2.18442 21.3127C2.22974 21.1821 2.357 21.0938 2.50042 21.0938H14.687C14.8304 21.0938 14.9577 21.1821 15.003 21.3127L15.5938 23.0138" stroke="#C5CFD8" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2.92969 14.0566H14.2631V21.0967H2.92969V14.0566Z" stroke="#C5CFD8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16.2631 23.0156H0.929688" stroke="#C5CFD8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4.92969 14.0566V21.0967" stroke="#C5CFD8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6.92969 14.0566V21.0967" stroke="#C5CFD8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.2656 14.0566V21.0967" stroke="#C5CFD8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12.2656 14.0566V21.0967" stroke="#C5CFD8" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15.5054 12.3853C15.5556 12.2407 15.4926 12.0821 15.3548 12.0064L8.75738 8.38467C8.65425 8.32751 8.52718 8.32751 8.42405 8.38467L1.82405 12.0039C1.68623 12.0796 1.62319 12.2381 1.67338 12.3827L2.18272 13.8375C2.22804 13.9681 2.3553 14.0562 2.49872 14.0563H14.6854C14.8288 14.0562 14.9561 13.9681 15.0014 13.8375L15.5054 12.3853Z" stroke="#C5CFD8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15.4838 12.1367H1.70312" stroke="#C5CFD8" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.5625 5.91066C13.5625 3.19858 15.7611 1 18.4732 1C21.1852 1 23.3838 3.19858 23.3838 5.91066C23.3838 8.62274 21.1852 10.8213 18.4732 10.8213C15.7611 10.8213 13.5625 8.62274 13.5625 5.91066Z" stroke="#C5CFD8"/>
+<path d="M15.5625 5.35547H21.6231" stroke="#00BAF2" stroke-linecap="square"/>
+<path d="M15.5625 6.41602H21.6231" stroke="#00BAF2" stroke-linecap="square"/>
+<path d="M20.4086 8.00805H19.8026L17.3783 3.76562H16.7344V8.00805" stroke="#00BAF2" stroke-linecap="square"/>
+<path d="M20.4531 8.00805V3.76562" stroke="#00BAF2" stroke-linecap="square"/>
+<path d="M18.7188 11V16.8618C18.7188 17.4141 18.271 17.8618 17.7187 17.8618H14.6017" stroke="#C5CFD8"/>
+<path d="M13.6555 17.8292L15.7599 16.3059L15.6664 19.4739L13.6555 17.8292Z" fill="#C5CFD8"/>
+</svg>

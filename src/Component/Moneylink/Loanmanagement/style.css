@@ -1,0 +1,312 @@
+.lms-hero {
+  padding: 20px 100px 30px 200px;
+}
+
+.col-xs-12.col-sm-6.col-xl-3 {
+  padding-left: 0px;
+}
+
+.col-md-5.lms-hero-2 img {
+  padding-top: 40px;
+}
+
+.lm1.loansyst {
+  padding-bottom: 70px;
+}
+
+.platform-sm-btn p {
+  margin-bottom: 0px !important;
+  padding: 0px !important;
+  padding-left: 6px !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+}
+
+.platform-sm-btn {
+  width: fit-content !important;
+  border: 1px solid #4d148c;
+  border-radius: 50px;
+  display: flex;
+  padding: 5px 10px;
+}
+
+.cip-body-2 {
+  margin-top: 45px;
+}
+
+.card-typeinside {
+  padding-right: 30px;
+}
+
+.why-moneylink.loanmoneywhy {
+  padding-bottom: 115px;
+}
+
+.card-type2 p {
+  color: #4d148c;
+  font-weight: 400;
+  font-size: 15px;
+  padding-left: 8px;
+}
+
+.card-type2 h6 {
+  color: #4d148c;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 0;
+}
+
+.loanorigp p {
+  color: #4d148c;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 0px;
+  padding-left: 8px;
+}
+
+span.loanorign {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+h6.loanheader {
+  font-size: 15px;
+  padding-bottom: 2px;
+  color: #4d148c;
+  font-weight: 500;
+}
+
+.credit-feature.loanorigstep1 {
+  margin-bottom: 10px;
+}
+
+.loanstep1 {
+  margin-bottom: 70px;
+}
+
+.card-type.card-loan {
+  height: 1148px;
+}
+
+.loanchildicon {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  padding-bottom: 18px;
+}
+
+.lms-hero h1 {
+  color: #4d148c;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 55px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+.lms-hero h1 span {
+  color: #4d148c;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 55px;
+}
+
+.lms-hero-2 img {
+  display: flex;
+  justify-content: end;
+  margin: auto;
+  margin-right: 0;
+}
+
+.col-md-5.lms-hero-2 img {
+  max-width: 85%;
+}
+
+.lms-hero p {
+  color: #4d148c;
+  font-size: 17.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 5px 0px 0px 0px;
+  margin-bottom: 0px;
+}
+
+.lms-hero button {
+  border-radius: 8px;
+  background: #ff5900;
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "cv04" on, "cv03" on, "cv01" on;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
+  padding: 10px 15px;
+  border: none;
+  margin-top: 10px;
+}
+
+.lm1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 200px 60px 200px;
+}
+
+.lmm h6 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #4d148c;
+}
+
+.lmm p {
+  font-size: 15px;
+  color: #4d148c;
+  font-weight: 400;
+  padding-left: 8px;
+}
+
+.lm2 {
+  background-color: #f8f6fc;
+  padding: 100px 200px;
+}
+
+/* loan mangement process styles*/
+
+.loan-util-down-arrow {
+  left: 27px;
+}
+
+.loan-arrow {
+  margin: 0 -36px;
+}
+
+.loan-topdescription {
+  margin-top: 10px !important;
+  margin-bottom: 15px !important;
+}
+
+.loanProcessArrow {
+  margin: 0 -36px;
+}
+
+@media only screen and (max-width: 920px) {
+  img.lms-img-res {
+    max-width: 12%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .lms-hero {
+    padding: 20px 20px !important;
+  }
+
+  .lms-hero h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .lms-hero h1 span {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .lms-hero p {
+    font-size: 14px;
+  }
+
+  .lms-hero button {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+  .lm1 {
+    padding: 0px 30px !important;
+  }
+
+  .lmm p {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+  .lms-hero-2 {
+    width: 70%;
+  }
+
+  .lms-hero-2 img {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lms-hero h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .lms-hero h1 span {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .lms-hero p {
+    font-size: 15px;
+  }
+
+  .lms-hero img {
+    width: auto !important;
+  }
+
+  .lm1 {
+    flex-direction: column !important;
+    width: 100%;
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .lmm {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .lms-hero {
+    padding: 70px 70px 70px 70px;
+  }
+
+  .lms-hero h1 {
+    font-size: 35px;
+    line-height: 55px;
+  }
+
+  .lms-hero h1 span {
+    font-size: 35px;
+    line-height: 55px;
+  }
+
+  .lms-hero-2 img {
+    width: 100%;
+  }
+
+  .lms-hero p {
+    font-size: 15px;
+  }
+
+  .lm1 {
+    padding: 70px 70px;
+  }
+
+  .lmm p {
+    font-size: 13px;
+  }
+}
+
+/* @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .lms-hero {
+    padding: 70px 100px !important;
+  }
+} */

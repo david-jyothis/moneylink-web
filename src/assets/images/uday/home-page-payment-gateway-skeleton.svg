@@ -1,0 +1,25 @@
+<svg width="955" height="552" viewBox="0 0 955 552" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="358.5" y="92.5" width="212" height="81" rx="5.5" stroke="#C8D0DB"/>
+<rect x="358.5" y="326.5" width="578" height="154" rx="5.5" stroke="#C8D0DB"/>
+<rect x="588.5" y="92.5" width="212" height="81" rx="5.5" stroke="#C8D0DB"/>
+<path className="yu-path" pathLength="1" d="M818.5 98C818.5 94.9624 820.962 92.5 824 92.5H953.5V173.5H824C820.962 173.5 818.5 171.038 818.5 168V98Z" stroke="#C8D0DB"/>
+<circle cx="382" cy="261" r="23.5" stroke="#C8D0DB"/>
+<circle cx="465" cy="261" r="23.5" stroke="#C8D0DB"/>
+<circle cx="548" cy="261" r="23.5" stroke="#C8D0DB"/>
+<circle cx="631" cy="261" r="23.5" stroke="#C8D0DB"/>
+<circle cx="714" cy="261" r="23.5" stroke="#C8D0DB"/>
+<circle cx="797" cy="261" r="23.5" stroke="#C8D0DB"/>
+<circle cx="880" cy="261" r="23.5" stroke="#C8D0DB"/>
+<rect x="358.5" y="92.5" width="212" height="81" rx="5.5" stroke="#C8D0DB"/>
+<path className="yu-path" pathLength="1" d="M223 56V41.5V13C223 6.37258 228.373 1 235 1H942C948.627 1 954 6.37258 954 13V508C954 514.627 948.627 520 942 520H332.5" stroke="#C8D0DB"/>
+<rect x="103.5" y="56.5" width="229" height="495" rx="19.5" stroke="#C8D0DB"/>
+<rect x="119.5" y="194.5" width="197" height="39" rx="5.5" stroke="#C8D0DB"/>
+<rect x="119.5" y="246.5" width="197" height="39" rx="5.5" stroke="#C8D0DB"/>
+<rect x="119.5" y="298.5" width="197" height="39" rx="5.5" stroke="#C8D0DB"/>
+<rect x="119.5" y="350.5" width="197" height="39" rx="5.5" stroke="#C8D0DB"/>
+<rect x="119.5" y="481.5" width="197" height="39" rx="5.5" stroke="#C8D0DB"/>
+<circle cx="24" cy="120" r="23.5" stroke="#C8D0DB"/>
+<circle cx="24" cy="392" r="23.5" stroke="#C8D0DB"/>
+<circle cx="24" cy="216" r="23.5" stroke="#C8D0DB"/>
+<circle cx="24" cy="488" r="23.5" stroke="#C8D0DB"/>
+</svg>

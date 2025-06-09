@@ -1,0 +1,150 @@
+.util-down-arrow {
+  position: absolute;
+  bottom: -40px;
+  left: 25px;
+}
+
+.util-step {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 25px 0px 0px;
+  position: relative;
+  cursor: pointer;
+}
+
+/* .util-step:nth-child(1) {
+  margin-left: 0px;
+} */
+.util-process-steps {
+  display: flex;
+  align-items: center;
+}
+
+.top-description {
+  /* width: 17% !important;
+  text-align: center !important; */
+  line-height: normal !important;
+  margin-bottom: 25px;
+  padding-right: 0px !important;
+  padding-bottom: 10px;
+}
+
+.top-step {
+  margin-bottom: 45px !important;
+}
+
+.down-description {
+  padding-right: 0px !important;
+  width: 615px;
+}
+
+.process-flow {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-bottom: 10px;
+}
+
+.top-step {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.top-circle {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #20336b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.top-circle img {
+  max-width: 50%;
+}
+
+.top-description {
+  color: #20336b;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  padding-bottom: 15px;
+}
+
+.down-arrow {
+  position: absolute;
+  bottom: -33px;
+  left: 28px;
+}
+
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 0.1fr);
+  align-items: center;
+  margin-top: 20px;
+}
+
+.step-container {
+  display: flex;
+  align-items: center;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 25px 0px 0px;
+  position: relative;
+}
+
+.circleimg {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid #20336b; */
+}
+
+.circleimg img {
+  max-width: 100%;
+  margin: auto;
+  width: 30px;
+}
+
+p.top-description {
+  text-align: left;
+}
+
+.down-description {
+  color: #20336b;
+  font-size: 13px !important;
+  max-width: 100px;
+  text-align: center;
+  white-space: normal;
+  line-height: 15px !important;
+  height: 44px;
+  font-weight: 600 !important;
+  margin-top: 1px !important;
+  margin-bottom: 0px !important;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 -36px;
+}
+
+p.down-description.twoline {
+  padding-left: 15px;
+}

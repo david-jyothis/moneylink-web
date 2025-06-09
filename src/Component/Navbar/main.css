@@ -1,0 +1,48 @@
+.verified-logo {
+  width: 30px !important;
+}
+
+.duologo {
+  padding-top: 0px !important;
+}
+
+.solution-menu h6:hover {
+  color: #4abceb;
+}
+.product-nav-link:hover {
+  color: #4abceb;
+}
+
+.solutions-nav-link:hover {
+  color: #4abceb;
+}
+
+.solnav {
+  margin-bottom: 0px;
+}
+
+.solution-btn {
+  padding: 0px 20px !important;
+}
+
+.solution-menu {
+  align-items: flex-start !important;
+}
+
+.no-scroll {
+  overflow: hidden;
+  height: 100%;
+}
+
+.country-dropdown-icon {
+  margin-top: 3px;
+}
+
+.country-name {
+  margin-left: 3px;
+}
+
+.country-button {
+  display: flex;
+  align-items: center;
+}

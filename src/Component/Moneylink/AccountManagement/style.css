@@ -1,0 +1,260 @@
+.accountmanagement-hero {
+  padding: 35px 20px 70px 200px;
+}
+
+.card-type.accountcard-type.accountmanagement-card-type {
+  width: 350px;
+}
+
+.plat-button:hover {
+  color: #fff !important;
+}
+
+.cip-hero-card.accountmanagement-card {
+  height: auto;
+  max-width: 600px;
+  padding-bottom: 10px;
+}
+
+.row.accountrow {
+  margin-top: 25px;
+}
+
+.why-moneylink.merchant-body.accountmanagement-body h1 {
+  padding-bottom: 40px;
+}
+
+.accountmanagement-hero h1 {
+  color: #4d148c;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+.accountmanagement-hero h1 span {
+  color: #4d148c;
+
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 68px;
+}
+
+.accountmanagement-hero-2 img {
+  display: flex;
+  justify-content: end;
+  margin: auto;
+  margin-right: 0;
+  padding-top: 35px;
+}
+
+.accountmanagement-hero p {
+  color: #4d148c;
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px 0;
+}
+
+.accountmanagement-hero button {
+  border-radius: 8px;
+  background: #ff5900;
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "cv04" on, "cv03" on, "cv01" on;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
+  padding: 10px 15px;
+  border: none;
+  margin-top: 0px;
+}
+
+.lm1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 200px 150px 200px;
+}
+
+.lmm {
+  width: 100%;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.why-moneylink.merchant-body.accountmanagement-body {
+  padding: 70px 200px;
+}
+
+.lmm h6 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #4d148c;
+}
+
+.lmm p {
+  font-size: 15px;
+  color: #4d148c;
+  padding-right: 20px;
+}
+
+.cip-hero-card {
+  max-width: 100%;
+  height: 180px;
+}
+
+.orange-circle {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ff5900;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.purple-circle {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #4d148c;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-left: 8px;
+}
+
+.card-types {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 24px;
+  margin-top: 62px;
+}
+
+.card-type ul {
+  list-style-type: disc;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-left: 23px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.card-type li,
+li::marker {
+  color: #fff;
+}
+
+.accountcard-type li {
+  line-height: normal;
+}
+
+.accountcard-type li,
+li::marker {
+  color: #4d148c;
+}
+
+@media screen and (max-width: 767px) {
+  .accountmanagement-hero {
+    padding: 20px 20px 20px 20px;
+  }
+
+  .card-types {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 24px;
+  }
+
+  .accountmanagement-hero h1,
+  .accountmanagement-hero h1 span {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .accountmanagement-hero p {
+    font-size: 16px;
+  }
+
+  .accountmanagement-hero button {
+    margin-top: 0px;
+  }
+
+  .accountmanagement-card h6 {
+    font-size: 17px !important;
+  }
+
+  .accountmanagement-card p {
+    font-size: 14px !important;
+  }
+
+  .accountmanagement-hero-2 img {
+    width: 100%;
+  }
+
+  .accountmanagement-body h1 {
+    font-size: 20px;
+  }
+
+  .accountmanagement-body .card-types {
+    margin-top: 30px;
+  }
+
+  .accountmanagement-card-type li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 768px) {
+  .accountmanagement-body h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .accountmanagement-hero {
+    padding: 70px 20px 70px 20px;
+  }
+
+  .why-moneylink {
+    padding: 30px 20px;
+  }
+
+  .accountmanagement-hero-row {
+    align-items: start;
+  }
+
+  .accountmanagement-hero h1 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .accountmanagement-hero-2 img {
+    width: 100%;
+  }
+
+  .accountcard-type {
+    height: auto !important;
+  }
+
+  .card-types {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
+  }
+
+  .card-type {
+    margin-bottom: 0px !important;
+    width: 100%;
+  }
+}
+
+/* @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .accountmanagement-hero {
+    padding: 70px 100px !important;
+  }
+} */
