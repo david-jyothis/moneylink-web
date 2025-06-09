@@ -255,10 +255,6 @@ const Main = () => {
       </div>
 
       {isMenuOpen && <Mobilemenu setOpen={setIsMenuOpen} />}
-
-      {selectedMenu && selectedMenu === "Payments" && (
-        <p>gxysagy</p>
-      )}
     </>
   );
 };
