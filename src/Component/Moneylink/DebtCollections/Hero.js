@@ -1,6 +1,5 @@
 import React from "react";
 import hero from "../../../assets/images/debt-hero.svg";
-import loan1 from "../../../assets/images/loanms1.svg";
 
 const Hero = () => {
   return (

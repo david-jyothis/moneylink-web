@@ -14,19 +14,11 @@ const Main = () => {
   const [isSubMenuVisible, setSubMenuVisible] = useState(false);
   const [selectedMenu, setSelectedMenu] = useState("");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isMoreActive, setMoreActive] = useState(false);
-  const [activeLink, setActiveLink] = useState(null);
-  const [disableLink, setDisableLink] = useState(false);
   const timeoutIdRef = useRef(null);
   const location = useLocation();
 
   const handleButtonClick = () => {
     setSubMenuVisible(!isSubMenuVisible);
-  };
-
-  const handleMenuSelect = (menu) => {
-    setSelectedMenu(menu);
-    setIsMenuOpen(false);
   };
 
   const handleSubMenuClick = (e) => {
@@ -51,9 +43,8 @@ const Main = () => {
     setSubMenuVisible(window.innerWidth <= 768);
     if (window.innerWidth > 920) {
       setSubMenuVisible(false);
-      setMoreActive(false);
     }
-  }, [setSubMenuVisible, setMoreActive]);
+  }, [setSubMenuVisible]);
 
   useEffect(() => {
     if (isMenuOpen) {
@@ -67,9 +58,6 @@ const Main = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   const handleSubLinkActivation = (link) => {
-    setMoreActive(true);
-    setActiveLink(link);
-    setDisableLink(true);
   };
 
   useEffect(() => {
@@ -79,11 +67,7 @@ const Main = () => {
       "/Solutions/Supplychain/overview",
     ];
     if (subLinks.includes(location.pathname)) {
-      setMoreActive(true);
-      setDisableLink(true);
     } else {
-      setMoreActive(false);
-      setDisableLink(false);
     }
   }, [location.pathname]);
 

@@ -1,6 +1,5 @@
 import React from "react";
 import loansack from "../../../assets/images/loansack.svg";
-import loan1 from "../../../assets/images/loanms1.svg";
 import LoanProcessContainer from "./LoanProcessContainer";
 
 const Hero = () => {

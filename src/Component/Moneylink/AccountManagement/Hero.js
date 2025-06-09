@@ -21,7 +21,7 @@ const Hero = () => {
             <div className="cip-hero-cards">
               <div className="cip-hero-card accountmanagement-card">
                 <div className="orange-circle">
-                  <img src={bank} alt="bank image" />
+                  <img src={bank} alt="bank" />
                 </div>
                 <div className="lineparagrap">
                   <h6>Benefits to Banks & Mobile Money Operators</h6>
@@ -58,7 +58,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="col-md-6 accountmanagement-hero-2">
-          <img src={hero} alt="hero image" />
+          <img src={hero} alt="hero" />
         </div>
       </div>
     </div>
